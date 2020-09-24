@@ -22,12 +22,31 @@
       <button type="button" (click) = "getNumber('1')" value="1">1</button>
       <button type="button" (click) = "getNumber('2')" value="2">2</button>
       <button type="button" (click) = "getNumber('3')" value="3">3</button>
+
+      
   
   
       <button type="button" (click) = "getNumber('0')" value="0">0</button>
       <button type="button" (click) = "getDecimal()" class="decimal" value=".">.</button>
       <button type="button" (click) = "clear()"  class="all-clear" value="all-clear">AC</button>
-  
+      
+      <button type="button" (click) = "doCalculation2('%')" value="%">%</button>
+      <button type="button" (click) = "doCalculation2('√')" value="√">√</button>
+      <button type="button" (click) = "getOperation('p')" value="pow">pow</button>
+      
+      <button type="button" (click) = "doCalculation2('a')" value="abs">abs</button>
+      <button type="button" (click) = "doCalculation2('x')" value="1/x">1/x</button>
+      <button type="button" (click) = "doCalculation2('b')" value="backspace">⌫</button>
+
+      <button type="button" (click) = "local('S')" value="MS">MS</button>
+      <button type="button" (click) = "local('R')" value="MR">MR</button>
+      <button type="button" (click) = "local('C')" value="MC">MC</button>
+
+      <button type="button" (click) = "local('P')" value="M+">M+</button>
+      <button type="button" (click) = "local('M')" value="M-">M-</button>
+      <button type="button" (click) = "doCalculation2('r')" value="reverse">+/-</button>
+
+
       <button type="button" (click) = "getOperation('=')" class="equal-sign" value="=">=</button>
   
     </div>
